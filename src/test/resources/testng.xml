@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParallelTestSuite" parallel="methods" thread-count="4">
+    <test name="ParallelUITests">
+        <classes>
+            <class name="com.selenideexample.ui_tests.HomePageTest"/>
+        <!--    <class name="com.selenideexample.ui_tests.SecondPageTest"/>
+            <class name="com.selenideexample.ui_tests.ThirdPageTest"/>  -->
+            <!-- Add more test classes as needed -->
+        </classes>
+    </test>
+</suite>
